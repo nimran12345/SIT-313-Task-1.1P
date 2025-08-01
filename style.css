@@ -1,0 +1,142 @@
+/* Base Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background: #e6cfcf;
+  color: #333;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* Navbar */
+.navbar {
+  background: white;
+  padding: 15px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar a {
+  margin: 0 15px;
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Divider */
+.divider {
+  height: 1px;
+  background: #ccc;
+  margin: 30px 0;
+  border: none;
+}
+
+/* Header */
+.header-image-wrapper {
+  position: relative;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.header-img {
+  width: 100%;
+  display: block;
+}
+
+.hover-text {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px 20px;
+  display: none;
+}
+
+.header-image-wrapper:hover .hover-text {
+  display: block;
+}
+
+/* About */
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 20px auto;
+}
+
+.about-section p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Section Titles */
+.section-title {
+  font-size: 20px;
+  color: #0077cc;
+  margin: 20px 0;
+}
+
+/* Projects */
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.project {
+  width: 260px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+}
+
+.project img {
+  width: 100%;
+}
+
+.project-info {
+  padding: 10px;
+}
+
+/* Gallery */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 10px;
+  padding: 0 20px;
+}
+
+.gallery img {
+  width: 100%;
+  border: 2px solid #eee;
+  border-radius: 4px;
+}
+
+/* Contact */
+.contact-section a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.contact-section a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background: #d8cfcf;
+  padding: 15px;
+  font-size: 14px;
+  color: #555;
+}
