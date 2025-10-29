@@ -1,0 +1,69 @@
+.newsletter-section {
+  background: white;
+  padding: 60px 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 40px;
+  text-align: center;
+}
+
+.newsletter-content h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.newsletter-content p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.newsletter-input {
+  padding: 12px 15px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.newsletter-btn {
+  background-color: #667eea;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.newsletter-btn:hover {
+  background-color: #5568d3;
+}
+
+.message {
+  margin-top: 15px;
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.message.success {
+  background-color: #e6ffed;
+  color: #2f855a;
+  border: 1px solid #9ae6b4;
+}
+
+.message.error {
+  background-color: #ffe6e6;
+  color: #e53e3e;
+  border: 1px solid #feb2b2;
+}
